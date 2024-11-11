@@ -1,0 +1,36 @@
+export const potholeData = [
+    {
+      id: 1,
+      image: 'https://via.placeholder.com/100',
+      location: '서울 종로구',
+      registeredAt: '2024-07-01T10:00:00Z',
+      isRepaired: false,
+      sido: 'seoul',
+      sigungu: 'jongno',
+      latitude: 37.5729503,
+      longitude: 126.9793579,
+    },
+    {
+      id: 2,
+      image: 'https://via.placeholder.com/100',
+      location: '서울 강남구',
+      registeredAt: '2024-07-02T12:00:00Z',
+      isRepaired: true,
+      sido: 'seoul',
+      sigungu: 'gangnam',
+      latitude: 37.517235,
+      longitude: 127.047325,
+    },
+    {
+      id: 3,
+      image: 'https://via.placeholder.com/100',
+      location: '부산 해운대구',
+      registeredAt: '2024-07-03T14:00:00Z',
+      isRepaired: false,
+      sido: 'busan',
+      sigungu: 'haeundae',
+      latitude: 35.163176,
+      longitude: 129.163432,
+    },
+    // 추가 데이터
+  ];

@@ -1,0 +1,26 @@
+.dashboard-page {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1.4fr;
+  gap: 10px;
+  height: 100%;
+  padding: 10px;
+}
+
+.left-partition {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.top-left-partition, .middle-left-partition, .bottom-left-partition, .middle-partition, .right-partition {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.middle-partition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
